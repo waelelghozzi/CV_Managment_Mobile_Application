@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#3b3e41"
+
+    tools:context=".RegistrationActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registration"
+                android:textColor="@android:color/white"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColorHint="@android:color/white"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:id="@+id/email_registration"
+                android:textColor="@android:color/white"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColorHint="@android:color/white"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+                android:id="@+id/registration_password"
+                android:textColor="@android:color/white"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#2b292f"
+                android:text="Registration"
+                android:padding="15dp"
+
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/btn_registration"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                android:text="Or"
+                android:textAppearance="?android:textAppearanceLarge"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#C39409"
+        android:padding="15dp"
+        android:text="Log in"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#3b3e41"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#2b292f"
+                android:text="Professional"
+                android:padding="15dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/btn_employer"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+
+                android:text="Or"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:textColor="@android:color/white"
+                android:text="Student"
+                android:backgroundTint="#C39409"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:id="@+id/btn_worker"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
